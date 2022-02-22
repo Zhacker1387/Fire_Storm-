@@ -18,7 +18,6 @@ print(Fore.YELLOW+'''
   111     01          0   0        1         0   1   1
     1     10           000         1         1   0   0          
  1111     
-          
 ''')           
 
 
@@ -84,17 +83,17 @@ def scrapy():
             print(i)
     except:
         print(Fore.RED+"please Enter url and tag name again")
-def Scanner():
-    print(Fore.GREEN+"[3] sql injection") 
-    print(Fore.RED+"[2] xss")
-    print(Fore.BLUE+"[1] LFI")
+
+
+    
     
     
 def whois():
     try:
+        print("|__whois__|")
         temp=[]
         print(Fore.RED+"please Enter your site target")
-        ur_whois=input("|__》")
+        ur_whois=input(Fore.BLUE+"|__》")
         words = ur_whois.split() 
         res = ' '.join(words)
         ur_whois=res
@@ -116,7 +115,8 @@ def whois():
             print(Fore.GREEN+"saved file directory》namefile:{}".format(filename))
     except:
         print(Fore.RED+"please Enter site again")    
-        
+def Scanner():
+    print("please wait This section is not complete")        
 if option=="5":
     exist()
 elif option=="1":
